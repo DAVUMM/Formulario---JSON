@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="formulario">
+        <h1>Cadastro Pessoal</h1>
+
+        <label for="nomeDigitado">Nome</label>
+        <input type="text" id="nomeDigitado" placeholder="Digite seu nome" required>
+
+        <label for="sobrenomeDigitado">Sobrenome</label>
+        <input type="text" id="sobrenomeDigitado" placeholder="Digite seu sobrenome" required>
+
+        <label for="dataNascimentoDigitada">Data de nascimento</label>
+        <input type="date" id="dataNascimentoDigitada" required>
+
+        <label for="rgDigitado">RG</label>
+        <input type="text" id="rgDigitado" placeholder="Digite seu RG" required>
+
+        <label for="cpfDigitado">CPF</label>
+        <input type="text" id="cpfDigitado" placeholder="Digite seu CPF" required>
+
+        <label for="nacionalidadeDigitada">Nacionalidade</label>
+        <input type="text" id="nacionalidadeDigitada" placeholder="Digite sua nacionalidade" required>
+
+        <label for="naturalidadeDigitada">Naturalidade</label>
+        <input type="text" id="naturalidadeDigitada" placeholder="Digite sua cidade natal" required>
+
+        <label for="alturaDigitada">Altura</label>
+        <input type="number" id="alturaDigitada" placeholder="Ex: 1.75" step="0.01" required>
+
+        <label for="pesoDigitado">Peso</label>
+        <input type="number" id="pesoDigitado" placeholder="Ex: 70" step="0.1" required>
+
+        <button onclick="enviarFormulario()">Enviar</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
